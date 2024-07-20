@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation</title>
+    <link rel="stylesheet" href="/Jqueryformvalid/Style.css">
+</head>
+<body>
+  <div class="main-div">
+    <h1 id="logo">Facebook</h1>
+    <form id="signup">
+        <div class="signup-form">
+            <div class="form-heading">
+                <h2>Create a New acount</h2>
+                <p>It's quick and easy</p>
+            </div>
+            <div class="input-fields">
+                <div class="half-width">
+                    <input type="text" placeholder="Firstname" name="fname">
+                    
+                </div>
+                <div class="half-width">
+                    <input type="text" placeholder="Lastname" name="lname">
+                </div>
+                <div class="full-width">
+                    <input type="number" placeholder="mobile number" name="mobile">
+                    
+                </div>
+                <div class="full-width">
+                    <input type="password" placeholder="password" name="password">
+                </div>
+                <label>Date of Birth</label>
+                <div class="dob-bir">
+                    <div class="quat-width">
+                        <select name="day">
+                            <option value="">choose</option>
+                            <option value="17">17</option>
+                            <option value="11">11</option>
+                        </select>
+                    </div>
+                    <div class="quat-width">
+                        <select name="month">
+                            <option value="">choose</option>
+                            <option value="jan">jan</option>
+                            <option value="feb">feb</option>
+                        </select>
+                    </div>
+                    <div class="quat-width">
+                        <select name="year">
+                            <option value="">choose</option>
+                            <option value="2000">2000</option>
+                            <option value="2004">2004</option>
+                        </select>
+                    </div>
+                </div>
+                <label>Gender</label>
+                <div class="dob-bir">
+                    <div class="quat-width">
+                        <div class="radio-btn">
+                            <label class="radio-label">Female</label>
+                            <input type="radio" class="radio-input" name="Gender">
+                        </div>
+                    </div>
+                    <div class="quat-width">
+                        <div class="radio-btn">
+                            <label class="radio-label">Male</label>
+                            <input type="radio" class="radio-input" name="Gender">
+                        </div>
+                    </div>
+                    <div class="quat-width">
+                        <div class="radio-btn">
+                            <label class="radio-label">Other</label>
+                            <input type="radio" class="radio-input" name="Gender">
+                        </div>
+                    </div>
+                </div>
+                <small>
+                    people who use our service may have upload our contact information to Facebook.<a href="#">Lean more</a>
+                </small>
+                <small>
+                    By clicking sign up,you to our Terms,privacy policy and conduct policy you may receive notifications from us and can out at any time.
+                </small>
+                <div class="button-div">  
+                    <button type="submit">Sign up</button>
+                </div>
+                <div class="acount-div">
+                    <a href="#">Already have an account?</a>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+   
+  
+  
+<script
+  src="https://code.jquery.com/jquery-3.7.1.min.js"
+  integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.21.0/jquery.validate.min.js"></script>
+  <script src="/Jqueryformvalid/Script.js"></script>
+</body>
+</html>
